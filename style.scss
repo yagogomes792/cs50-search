@@ -1,0 +1,111 @@
+$color: rgb(190, 187, 187);
+
+$font: arial,sans-serif;
+
+body{
+    font-family: $font;
+}
+
+.links{
+    text-align: right;
+    padding: 10px;
+}
+.links a{
+    padding-right: 15px;
+}
+#search-box {
+    margin-left: 30%;
+
+    width: 40%;
+    position: absolute;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid  $color;
+}
+#search-box:focus{
+    outline: none;
+}
+
+.form{
+    #search-btn{
+        margin-left: 35%;
+        margin-top: 5%;
+        width: 15%;
+        padding: 8px;
+        border: none;
+    }
+    #lucky-btn{
+        margin-left: 2%;
+        margin-top: 5%;
+        width: 15%;
+        padding: 8px;
+        border: none;
+    }
+    #search-btn:hover{
+        border: 1px solid $color;
+    }
+    #lucky-btn:hover{
+        border: 1px solid $color;
+    }
+}
+
+#search-box:hover{
+    box-shadow: 2px 2px 2px 2px $color;
+}
+
+.logo{
+    margin-left: 520px;
+    margin-top: 100px;
+    width: 350px;
+}
+
+form{
+    input[type="text"]{
+        width: 50%;
+        text-align: left;
+    }
+    .textinput{
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        padding: 1px 8px;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        cursor: text;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+    }
+    .text2{
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        cursor: text;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+    }
+    .mainsubmit{
+        float: right;
+        margin: 20px 0;
+        padding: 0 12px;
+        box-shadow: none;
+        background-color: #4d90fe;
+        background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+        border: 1px solid #3079ed;
+        color: #fff;
+        margin-right: 700px;
+    }
+    .mainsubmit:hover{
+        border: 1px solid #1f51a1;
+    }
+}
